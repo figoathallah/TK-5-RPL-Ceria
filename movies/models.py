@@ -9,7 +9,6 @@ class Movie(models.Model):
     genre = models.TextField()
     batasanUmur = models.CharField(max_length=3)
     cast = models.TextField()
-    seats = ""
 
 
     def __str__(self):
